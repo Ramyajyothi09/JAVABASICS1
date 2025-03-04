@@ -1,0 +1,15 @@
+
+public class Comment {
+    public static void main(String[] args) {
+        //using single line comment
+        // Single-line comments are used to explain a single line of code or add brief comments.
+        System.out.println("Double slash(//) is used for single line comment");
+        /*using multli line comment */
+        /*Multi-line comments are used to explain code over multiple lines*/
+        System.out.println(" For multi line comment. The content should be start with (/*) and end with (*/)");
+        
+        /**using documentation comment 
+          Documentation comments are used to describe classes, methods, and functions.*/
+        System.out.println("For Documentation comment. The content should be start with (/**) and end with (*/)");
+    }
+}
