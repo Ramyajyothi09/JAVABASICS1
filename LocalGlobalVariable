@@ -1,0 +1,27 @@
+class Localglobalv {
+        /*In Java, local variables are defined inside methods, constructors, 
+    or blocks, and they can only be accessed within that specific method,
+     constructor, or block. Global variables (also known as instance variables or fields) are
+      defined at the class level, outside of any methods, and can be accessed by all methods in the class.*/
+     
+      int n=100;
+      public Localglobalv(){
+        System.out.println("Printing globally declared value: "+n);
+      }
+      public void local(){
+int n=90;
+System.out.println("Printing locally declared value: "+n);
+System.out.println("Printing globally declared value: "+n);
+
+//To access the global variable when there’s a local variable with the same name, use the this keyword (this.n).
+
+System.out.println("Printing globally declared value2: "+this.n);
+      }
+
+    }
+public class Localglobal{
+    public static void main(String[] args) {
+        Localglobalv exa=new Localglobalv();
+        exa.local();
+    }
+}
