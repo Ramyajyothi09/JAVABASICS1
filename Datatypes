@@ -1,0 +1,16 @@
+public class Datatypes {
+    public static void main(String[] args) {
+        //Datatypes in java are int, float, boolean, char, double.
+         int integervalue=50;  /*int stores only integer numbers i.e(both negative and positive values)*/
+        Boolean bool= true; //Boolean stores true or false values
+        float deci=5.3f; //float stores only decimal values
+         char letter='A'; // char only stores a single character
+         double d=3.14159265359; // Double stores decimal numbers with double precision
+         
+        System.out.println("Integer value: "+ integervalue);
+        System.out.println("Boolean value: "+bool);
+        System.out.println("Float value: "+deci);
+        System.out.println("Double value: "+d);
+        System.out.println("Character value: "+letter);
+        }
+}
